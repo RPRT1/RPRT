@@ -1,0 +1,83 @@
+
+body{
+    margin: 0 auto;
+    font-family: monospace;
+    background-color: black;
+    margin-left: 5%;
+
+}
+nav.nav{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 95%;
+    height: 3vw;
+    margin-top: 3vw;
+    align-items: center;
+}
+
+.one a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 4px;
+    width: 12.3vw;
+    font-size: 2vw;
+    justify-content: space-around;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    box-shadow: 0 0 20px rgb(255,255,255);
+
+
+}
+div.one a:hover {
+   color: white;
+   justify-content: space-around;
+   font-size: 3vw;
+   background-color: black;
+   box-shadow: 0 0 30px rgb(0,0,0);
+   text-shadow: 0 0 50px rgb(255,255,255);
+ }
+
+.gros-titre{
+    height: 9vw;
+    width: 40%;
+    margin-top: 5vw;
+    color:black;
+    text-decoration: none;
+    font-size: 6vw;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgb(255,255,255);
+}
+.projet-titre{
+    font-size: 4vw;
+    color: white;
+    position: relative;
+    margin: 4%;
+
+}
+.projet-titre::before{
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 27%;
+    height: 4%;
+    bottom:0;
+}
+.premier{
+    background-color: white;
+    width: 95%;
+    height: 30vw;
+    border-radius: 30px;
+    box-shadow: white;
+    box-shadow: 0 0 30px rgb(255,255,255);
+}
+.deux{ background-color: white;
+    width: 95%;
+    height: 30vw;
+    border-radius: 30px;
+    box-shadow: white;
+    box-shadow: 0 0 30px rgb(255,255,255);
+}

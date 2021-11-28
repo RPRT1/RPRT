@@ -135,7 +135,6 @@ div.copyright{
     transition: all 0.5s ease;
 }
 .qrcode:hover img {
-     /* on affiche l'image au carré */
-    -webkit-transform: rotate(360deg); /* rotation de l'image */
+    -webkit-transform: rotate(360deg); 
     transform: rotate(360deg);
 }

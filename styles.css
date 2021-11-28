@@ -130,14 +130,12 @@ div.copyright{
 .qrcode img{
     margin-left: 30%;
     width: 50%;
-    border-radius: 30px;
-   -webkit-transition: all 0.5s ease;
-   transition: all 0.5s ease;
+    border-radius: 10%;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 .qrcode:hover img {
-    width: 150px; /* on affiche l'image au carré */
-    height: 150px;
-    
+     /* on affiche l'image au carré */
     -webkit-transform: rotate(360deg); /* rotation de l'image */
     transform: rotate(360deg);
 }
